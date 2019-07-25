@@ -1,0 +1,46 @@
+intents:
+- affirm
+- changeColor
+- createEnvironment
+- changeTime
+- changeWeather
+- gameOperation
+- deny
+- goodbye
+- greet
+- mood_great
+- mood_unhappy
+templates:
+  utter_createEnvironment:
+  - text: Okay i will create you!
+  utter_greet:
+  - text: Hey! How are you?
+  utter_cheer_up:
+  - text: 'Here is something to cheer you up:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_changeColor:
+  - text: color has been changed!
+  utter_changeTime:
+  - text: time has been changed!
+  utter_changeWeather:
+  - text: Weather has been changed!
+  utter_gameOperation:
+  - text: okay done :-)
+
+actions:
+- utter_changeColor
+- utter_cheer_up
+- utter_createEnvironment
+- utter_changeTime
+- utter_changeWeather
+- utter_gameOperation
+- utter_did_that_help
+- utter_goodbye
+- utter_greet
+- utter_happy
